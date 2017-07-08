@@ -179,10 +179,6 @@ if (err) {
       <td>The value must contain the value. For a string, it does an "indexOf" check, an array "_.indexOf" and for an object "_.has".</td>
     </tr
     <tr>
-      <td>date</td>
-      <td>The value must be a valid date object.</td>
-    </tr>
-    <tr>
       <td>different:fieldName</td>
       <td>The given field must be different than the `fieldName` under validation.</td>
     </tr>
@@ -247,16 +243,8 @@ if (err) {
       <td>The value must exactly match the value of another `fieldName` under validation.</td>
     </tr>
     <tr>
-      <td>max:value</td>
-      <td>The value must be less than a maximum value. Strings, numerics, and files are evaluated in the same fashion as the size rule.</td>
-    </tr>
-    <tr>
       <td>maxLength:value</td>
       <td>The value must have a length property which is less than or equal to the specified value. Note, this may be used with both arrays and strings.</td>
-    </tr>
-    <tr>
-      <td>min:value</td>
-      <td>The value must have a minimum value. Strings, numerics, and files are evaluated in the same fashion as the size rule.</td>
     </tr>
     <tr>
       <td>minLength:value</td>
